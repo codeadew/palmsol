@@ -1,0 +1,540 @@
+[01-May-2023 23:03:23 UTC] PHP Warning:  Undefined variable $mail in /home/palmsolt/public_html/digital.php on line 18
+[01-May-2023 23:03:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on null in /home/palmsolt/public_html/digital.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 18
+[01-May-2023 23:08:26 UTC] PHP Warning:  Undefined variable $mail in /home/palmsolt/public_html/digital.php on line 22
+[01-May-2023 23:08:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on null in /home/palmsolt/public_html/digital.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 22
+[01-May-2023 23:12:18 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/palmsolt/public_html/digital.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 12
+[01-May-2023 23:12:45 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home/palmsolt/public_html/digital.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 12
+[01-May-2023 23:24:09 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/palmsolt/public_html/digital.php on line 12
+[01-May-2023 23:24:28 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/palmsolt/public_html/digital.php on line 12
+[02-May-2023 17:24:00 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/palmsolt/public_html/digital.php on line 10
+[03-May-2023 02:20:02 UTC] PHP Parse error:  syntax error, unexpected token "=" in /home/palmsolt/public_html/digital.php on line 10
+[03-May-2023 02:40:02 UTC] PHP Warning:  Undefined variable $servername in /home/palmsolt/public_html/digital.php on line 17
+[03-May-2023 02:40:02 UTC] PHP Warning:  Undefined variable $username in /home/palmsolt/public_html/digital.php on line 17
+[03-May-2023 02:40:02 UTC] PHP Warning:  Undefined variable $password in /home/palmsolt/public_html/digital.php on line 17
+[03-May-2023 02:40:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'palmsolt'@'localhost' (using password: NO) in /home/palmsolt/public_html/digital.php:17
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(17): mysqli_connect()
+#1 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 17
+[03-May-2023 02:45:37 UTC] PHP Warning:  Undefined variable $mail in /home/palmsolt/public_html/digital.php on line 31
+[03-May-2023 02:45:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isSMTP() on null in /home/palmsolt/public_html/digital.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 31
+[03-May-2023 03:29:31 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 64
+[03-May-2023 03:29:31 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 64
+[03-May-2023 03:29:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (to):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1094
+Stack trace:
+#0 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1014): PHPMailer\PHPMailer\PHPMailer->addOrEnqueueAnAddress()
+#1 /home/palmsolt/public_html/digital.php(64): PHPMailer\PHPMailer\PHPMailer->addAddress()
+#2 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1094
+[03-May-2023 03:29:34 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:29:34 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:29:34 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1308
+[03-May-2023 03:29:34 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(41): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 03:29:38 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:29:38 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:29:38 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1308
+[03-May-2023 03:29:38 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(41): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 03:34:50 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:34:50 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:34:50 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1308
+[03-May-2023 03:34:50 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(41): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 03:35:35 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:35:35 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 41
+[03-May-2023 03:35:35 UTC] PHP Deprecated:  preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1308
+[03-May-2023 03:35:35 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(41): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 03:40:12 UTC] PHP Fatal error:  Uncaught Error: Class "PHPMailer\PHPMailer\SMTP" not found in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1982
+Stack trace:
+#0 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(2103): PHPMailer\PHPMailer\PHPMailer->getSMTPInstance()
+#1 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#2 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#3 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#4 /home/palmsolt/public_html/digital.php(45): PHPMailer\PHPMailer\PHPMailer->send()
+#5 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1982
+[03-May-2023 03:44:37 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. Failed to connect to server in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/palmsolt/public_html/digital.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 2233
+[03-May-2023 03:53:38 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/palmsolt/public_html/digital.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 2233
+[03-May-2023 03:56:41 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not connect to SMTP host. in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:2233
+Stack trace:
+#0 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(2019): PHPMailer\PHPMailer\PHPMailer->smtpConnect()
+#1 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1678): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#2 /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php(1516): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/palmsolt/public_html/digital.php(46): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 2233
+[03-May-2023 05:31:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'first_name' in 'field list' in /home/palmsolt/public_html/digital.php:399
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(399): mysqli_query()
+#1 {main}
+  thrown in /home/palmsolt/public_html/digital.php on line 399
+[03-May-2023 05:44:45 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 05:44:45 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 05:44:45 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 20:16:25 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 20:16:25 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 20:16:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-May-2023 20:28:42 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 20:28:42 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[03-May-2023 20:28:42 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[04-May-2023 20:04:37 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[04-May-2023 20:04:37 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[04-May-2023 20:04:37 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[05-May-2023 14:33:28 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[05-May-2023 14:33:28 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[05-May-2023 14:33:28 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-May-2023 08:34:55 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-May-2023 08:34:55 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-May-2023 08:34:55 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[16-May-2023 21:22:49 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[16-May-2023 21:22:49 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[16-May-2023 21:22:49 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[18-May-2023 06:43:47 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[18-May-2023 06:43:47 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[18-May-2023 06:43:47 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 08:18:48 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 08:18:48 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 08:18:48 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 08:27:34 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 08:27:34 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 08:27:34 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 20:51:12 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 20:51:12 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 20:51:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 20:59:10 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 20:59:10 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 20:59:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 22:57:16 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 22:57:16 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 22:57:16 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[25-May-2023 23:05:34 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 23:05:34 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[25-May-2023 23:05:34 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[26-May-2023 00:13:24 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[26-May-2023 00:13:24 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[26-May-2023 00:13:24 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[26-May-2023 00:21:26 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[26-May-2023 00:21:26 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[26-May-2023 00:21:26 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[27-May-2023 07:42:05 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[27-May-2023 07:42:05 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[27-May-2023 07:42:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[30-May-2023 14:17:12 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[30-May-2023 14:17:12 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[30-May-2023 14:17:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[07-Jun-2023 05:54:34 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[07-Jun-2023 05:54:34 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[07-Jun-2023 05:54:34 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[09-Jun-2023 11:51:15 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[09-Jun-2023 11:51:15 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[09-Jun-2023 11:51:15 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[20-Jun-2023 10:40:51 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[20-Jun-2023 10:40:51 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[20-Jun-2023 10:40:51 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[21-Jun-2023 08:19:05 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[21-Jun-2023 08:19:05 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[21-Jun-2023 08:19:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[23-Jun-2023 07:34:27 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[23-Jun-2023 07:34:27 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[23-Jun-2023 07:34:27 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[23-Jun-2023 07:40:04 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[23-Jun-2023 07:40:04 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[23-Jun-2023 07:40:04 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[24-Jun-2023 01:13:13 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[24-Jun-2023 01:13:13 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[24-Jun-2023 01:13:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[24-Jun-2023 01:34:46 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[24-Jun-2023 01:34:46 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[24-Jun-2023 01:34:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[28-Jun-2023 00:04:30 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[28-Jun-2023 00:04:30 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[28-Jun-2023 00:04:30 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Jul-2023 18:15:53 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 18:15:53 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 18:15:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Jul-2023 18:17:05 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 18:17:05 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 18:17:05 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Jul-2023 19:32:13 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 19:32:13 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Jul-2023 19:32:13 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[14-Jul-2023 02:23:02 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[14-Jul-2023 02:23:02 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[14-Jul-2023 02:23:02 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Jul-2023 09:28:40 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Jul-2023 09:28:40 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Jul-2023 09:28:40 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Jul-2023 09:37:46 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Jul-2023 09:37:46 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Jul-2023 09:37:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-Aug-2023 19:01:46 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[03-Aug-2023 19:01:46 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[03-Aug-2023 19:01:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[05-Aug-2023 07:08:00 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[05-Aug-2023 07:08:00 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[05-Aug-2023 07:08:01 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[06-Aug-2023 03:05:02 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[06-Aug-2023 03:05:02 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[06-Aug-2023 03:05:02 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[08-Aug-2023 04:54:31 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[08-Aug-2023 04:54:31 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[08-Aug-2023 04:54:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[08-Aug-2023 05:00:21 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[08-Aug-2023 05:00:21 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[08-Aug-2023 05:00:21 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[10-Aug-2023 18:55:14 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[10-Aug-2023 18:55:14 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[10-Aug-2023 18:55:14 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Aug-2023 11:22:42 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Aug-2023 11:22:42 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Aug-2023 11:22:42 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[17-Aug-2023 11:50:03 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[17-Aug-2023 11:50:03 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[17-Aug-2023 11:50:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[18-Aug-2023 09:41:12 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[18-Aug-2023 09:41:12 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[18-Aug-2023 09:41:12 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[19-Aug-2023 21:16:02 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[19-Aug-2023 21:16:02 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[19-Aug-2023 21:16:02 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[28-Aug-2023 15:59:57 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[28-Aug-2023 15:59:57 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[28-Aug-2023 15:59:57 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[28-Aug-2023 16:02:01 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[28-Aug-2023 16:02:01 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[28-Aug-2023 16:02:01 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[29-Aug-2023 21:38:25 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 21:38:25 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 21:38:25 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[29-Aug-2023 22:11:10 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 22:11:10 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 22:11:10 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[29-Aug-2023 22:16:01 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 22:16:01 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[29-Aug-2023 22:16:01 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[31-Aug-2023 06:36:33 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[31-Aug-2023 06:36:33 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[31-Aug-2023 06:36:33 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[03-Sep-2023 07:28:03 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[03-Sep-2023 07:28:03 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[03-Sep-2023 07:28:03 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[04-Sep-2023 05:33:50 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[04-Sep-2023 05:33:50 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[04-Sep-2023 05:33:50 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[06-Sep-2023 05:23:46 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[06-Sep-2023 05:23:46 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[06-Sep-2023 05:23:46 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Sep-2023 07:42:44 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Sep-2023 07:42:44 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Sep-2023 07:42:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[11-Sep-2023 07:42:53 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[11-Sep-2023 07:42:53 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[11-Sep-2023 07:42:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[13-Sep-2023 16:53:44 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[13-Sep-2023 16:53:44 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[13-Sep-2023 16:53:44 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 05:10:39 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 05:10:39 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 05:10:39 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 05:16:53 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 05:16:53 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 05:16:53 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 06:02:31 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 06:02:31 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 06:02:31 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 06:14:35 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 06:14:35 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 418
+[15-Sep-2023 06:14:35 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(418): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 06:17:29 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 34
+[15-Sep-2023 06:17:29 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 34
+[15-Sep-2023 06:17:29 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(34): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
+[15-Sep-2023 06:20:24 UTC] PHP Warning:  Undefined variable $email in /home/palmsolt/public_html/digital.php on line 34
+[15-Sep-2023 06:20:24 UTC] PHP Warning:  Undefined variable $first_name in /home/palmsolt/public_html/digital.php on line 34
+[15-Sep-2023 06:20:24 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php:1324
+Stack trace:
+#0 /home/palmsolt/public_html/digital.php(34): PHPMailer\PHPMailer\PHPMailer->setFrom()
+#1 {main}
+  thrown in /home/palmsolt/public_html/PHPMailer-master/src/PHPMailer.php on line 1324
