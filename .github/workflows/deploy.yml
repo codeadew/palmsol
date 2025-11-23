@@ -18,7 +18,7 @@ jobs:
       - name: Setup SSH
         uses: webfactory/ssh-agent@v0.8.1
         with:
-          ssh-private-key: ${{ secrets.ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgrkfyN0FsMu5eHaIOAykj0gRjxDVUYWzslE47ozom3 adewunmialaba02@gmail.com }}
+          ssh-private-key: ${{ secrets.ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgrkfyN0FsMu5eHaIOAykj0gRjxDVUYWzslE47ozom3 adewunmialaba02@gmail.com}}
 
       # Step 3: Sync files to your server
       - name: Deploy files
