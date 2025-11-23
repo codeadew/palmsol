@@ -19,7 +19,8 @@ class App
             unset($url[0]);
         } else {
             // Use _404 controller if not found
-            require "app/controllers/404.php";
+            require "app/controllers/_404.php";
+             $controllerPath = "app/controllers/_404.php";
             $this->controller = new _404();
             $this->controller->index();
             exit;
@@ -45,7 +46,7 @@ class App
 
         // Call controller method with parameters
         call_user_func_array([$this->controller, $this->method], $this->params);
-        show($url);
+        
     }
 
     private function parseURL()

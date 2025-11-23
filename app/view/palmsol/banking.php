@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
+    <title>palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -96,7 +96,7 @@
                     <span>Banking & insurance</span>
                     <h2>Banking & insurance</h2>
                     <p> WE ARE DESIGNERS, CONTENT CREATOR, AND DIGITAL SOLUTION PROVIDER</p>
-                    <p>Palmsoltechnology has been helping fintech providers, financial data vendors, institutions, and banks to envision, fulfill, and protect their clients’ financial dreams. Our decade-long experience allows us to deeply understand inherent industry intricacies and unique business challenges to deliver enterprise-grade banking and financial software solutions that support digital transformation and drive measurable results.</p>
+                    <p>palmsoltechnology has been helping fintech providers, financial data vendors, institutions, and banks to envision, fulfill, and protect their clients’ financial dreams. Our decade-long experience allows us to deeply understand inherent industry intricacies and unique business challenges to deliver enterprise-grade banking and financial software solutions that support digital transformation and drive measurable results.</p>
                     <p>Plamsoltechnology fintech solutions
                         Embrace the power of innovative solutions to maintain the leading roles in financial services through more efficient, secure and informed decisions.</p>
                     <p>Deliver outstanding, personalized customer experiences across all your channels through datadriven insights into every customer’s needs. </p>
@@ -140,7 +140,7 @@
             <div class="col-lg-8">
                 <div class="common-heading ptag">
                     <span>We Deliver Our Best</span>
-                    <h2>Why Choose Palmsoltechnology in banking industry</h2>
+                    <h2>Why Choose palmsoltechnology in banking industry</h2>
                 </div>
             </div>
         </div>
@@ -222,5 +222,5 @@
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
 </html>

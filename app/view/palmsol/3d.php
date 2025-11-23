@@ -164,7 +164,7 @@
 									</div>
 									<div class="owl-carousel testimonial-card-b mt60">
 										<div class="testimonial-card">
-											<p>The realistic 3D renderings from Palmsoltechnology 3D Team transformed our real estate marketing. Potential buyers can visualize our properties even before visiting, leading to increased inquiries and higher conversion rates. Highly recommended!</p>
+											<p>The realistic 3D renderings from palmsoltechnology 3D Team transformed our real estate marketing. Potential buyers can visualize our properties even before visiting, leading to increased inquiries and higher conversion rates. Highly recommended!</p>
 											<div class="-client-details- mt20">
 											<i class="fas fa-quote-left posiqut"></i>
 												<div class="reviewer-text">
@@ -175,7 +175,7 @@
 											</div>
 										</div>
 										<div class="testimonial-card">
-											<p>Working with Palmsoltechnology 3D on our brand's 3D services was a game-changer. Their stunning animations effectively showcased our products, generating significant interest. Their expertise and prompt delivery made the process seamless. Thrilled with the results!</p>
+											<p>Working with palmsoltechnology 3D on our brand's 3D services was a game-changer. Their stunning animations effectively showcased our products, generating significant interest. Their expertise and prompt delivery made the process seamless. Thrilled with the results!</p>
 											<div class="-client-details- mt20">
 											<i class="fas fa-quote-left posiqut"></i>
 												<div class="reviewer-text">

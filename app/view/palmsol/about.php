@@ -77,7 +77,7 @@
                             <div class="user-image bdr-radius"><img src="<?= ASSETS . THEME ?>images/user-thumb/girl2.jpg" alt="girl" class="img-fluid" /></div>
                             <div class="media-body user-info v-center">
                                 <h5>Adewunmi Alaba</h5>
-                                <p>Founder of <span>Palmsoltechnology</span></p>
+                                <p>Founder of <span>palmsoltechnology</span></p>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
             <div class="col-lg-8">
                 <div class="common-heading ptag">
                     <span>We Deliver Our Best</span>
-                    <h2>Why Choose Palmsoltechnology</h2>
+                    <h2>Why Choose palmsoltechnology</h2>
                     <p class="mb30">Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit.</p>
                 </div>
             </div>
@@ -174,7 +174,7 @@
                     <span>About Us</span>
                     <h2>About Agency</h2>
                     <p> WE ARE DESIGNERS, CONTENT CREATOR, AND DIGITAL SOLUTION PROVIDER</p>
-                    <p>Palmsoltechnology is an independent digital solution company, established in 2018 located in Lagos, Nigeria. Within a short period of time we have grown consistently and today we offer a wide range of Enterprise Solutions such as Web and Mobile Applications, Website Management, Video Editing, Content Creation, Graphics Design, Networking & Infrastructure, and Digital marketing.
+                    <p>palmsoltechnology is an independent digital solution company, established in 2018 located in Lagos, Nigeria. Within a short period of time we have grown consistently and today we offer a wide range of Enterprise Solutions such as Web and Mobile Applications, Website Management, Video Editing, Content Creation, Graphics Design, Networking & Infrastructure, and Digital marketing.
                          
                     </p>
                     <p>We have impacted our community by solving problems using technology that allows us to do what we do best: identifying and communicating your brand story. Everywhere your brand lives. From paper to the web, from developing complex websites that sell your products to brand videos and creating the tools your sales team needs to get the products in-store.</p>

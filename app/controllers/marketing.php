@@ -5,13 +5,13 @@ class Marketing extends Controller {
 
         // ✅ SEO title & description
         $data['page_title'] = 'Digital Marketing Agency in Lagos | SEO, Social Media & Ads';
-        $data['meta_description'] = 'Palmsol Technology offers professional digital marketing in Lagos — SEO, social media management, PPC ads, and content marketing to grow your business online.';
+        $data['meta_description'] = 'palmsol Technology offers professional digital marketing in Lagos — SEO, social media management, PPC ads, and content marketing to grow your business online.';
 
         // ✅ Meta keywords
         $data['meta_keywords'] = 'digital marketing Lagos, SEO services Nigeria, social media ads Lagos, PPC agency Nigeria, content marketing Lagos, online advertising Nigeria';
 
         // ✅ Business identity (LocalBusiness schema pieces)
-        $data['business_name'] = 'Palmsol Technology Digital Marketing Services';
+        $data['business_name'] = 'palmsol Technology Digital Marketing Services';
         $data['business_id']    = 'https://palmsoltechnology.com/';
         $data['business_url']   = ROOT.'marketing';
         $data['telephone']      = '+2349031499108';
@@ -41,7 +41,7 @@ class Marketing extends Controller {
         ];
 
         // ✅ Business description
-        $data['business_description'] = 'Palmsol Technology is a Lagos-based digital marketing agency helping Nigerian businesses grow through SEO, social media management, online advertising, and content marketing strategies.';
+        $data['business_description'] = 'palmsol Technology is a Lagos-based digital marketing agency helping Nigerian businesses grow through SEO, social media management, online advertising, and content marketing strategies.';
 
         // ✅ Schema offers
         $schema['makesOffer'][] = [

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/service-marketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:38:17 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/service-marketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:38:17 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
+    <title>palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -154,7 +154,7 @@ include ('header2.php');
             <div class="col-lg-7">
                 <div class="text-l service-desc- pr25">
                     <h3 class="mb20">Online Marketing Services Proven to Increase Leads, Sales, & Revenue</h3>
-                    <p>Palmsoltechnology taps into the power of digital to develop custom software applications and products for industry domains such as Retail, Transportation & Supply Chain and Financial Services. In 3+ years, we grew swiftly to serve more than 300 customers across the nation. Our clients range from early-stage enterprises to Fortune companies.</p>
+                    <p>palmsoltechnology taps into the power of digital to develop custom software applications and products for industry domains such as Retail, Transportation & Supply Chain and Financial Services. In 3+ years, we grew swiftly to serve more than 300 customers across the nation. Our clients range from early-stage enterprises to Fortune companies.</p>
                     <ul class="service-point-2 mt20">
                         <li># 52+ Mobile Delivered</li>
                         <li># 200+ Team Strength</li>
@@ -168,7 +168,7 @@ include ('header2.php');
             </div>
             <div class="col-lg-5">
                 <div class="servie-key-points">
-                    <h4>Advantages of  working with Palmsoltechnology</h4>
+                    <h4>Advantages of  working with palmsoltechnology</h4>
                     <ul class="key-points mt20">
                         <li>Strategize with The Valuable Data and Analytics</li>
                         <li>Content Performance and Lead Generation</li>
@@ -324,5 +324,5 @@ include ('header2.php');
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/service-marketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:38:22 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/service-marketing.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:38:22 GMT -->
 </html>

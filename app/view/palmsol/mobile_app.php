@@ -4,7 +4,7 @@
 <!-- Mirrored from rajeshdoot.com/niwax-demos/html/service-app.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:38:07 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency</title>
+    <title>palmsoltechnology - Web & mobile application agency</title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -224,7 +224,7 @@
                     <div class="s-card-icon-large"><img src="images/service/mob-service-item1.png" alt="service" class="img-fluid"/></div>
                     <div class="s-block-content-large">
                         <h4>Android App Development</h4>
-                        <p>Android has always been the platform for creativity. At Palmsoltechnology we have years of experience in developing robust feature-reach apps with no bugs attached. Our skilled team works with the Android platform using all the flexibility and potential it provides and delivers apps that our client love to use.</p>
+                        <p>Android has always been the platform for creativity. At palmsoltechnology we have years of experience in developing robust feature-reach apps with no bugs attached. Our skilled team works with the Android platform using all the flexibility and potential it provides and delivers apps that our client love to use.</p>
                     </div></div>
             </div>
 
@@ -233,7 +233,7 @@
                     <div class="s-card-icon-large"><img src="images/service/mob-service-item3.png" alt="service" class="img-fluid"/></div>
                     <div class="s-block-content-large">
                         <h4>Cross Platform App Development</h4>
-                        <p>With two major operating systems – iOS and Android, businesses often face time, team or budget shortage to cover both platforms native app development. Palmsoltechnology skilled team knows the solution to these issues and offers their clients hybrid or cross-platform app development services.</p>
+                        <p>With two major operating systems – iOS and Android, businesses often face time, team or budget shortage to cover both platforms native app development. palmsoltechnology skilled team knows the solution to these issues and offers their clients hybrid or cross-platform app development services.</p>
                     </div></div>
             </div>
 
@@ -242,7 +242,7 @@
                     <div class="s-card-icon-large"><img src="images/service/mob-service-item4.png" alt="service" class="img-fluid"/></div>
                     <div class="s-block-content-large">
                         <h4>Wearable App Development</h4>
-                        <p>Palmsoltechnology has been researching wearable platforms for quite some time. We combine exhaustive knowledge of popular mobile platforms and comprehensive expertise with wearable tech, and deep understanding of spheres where this class of devices can be applied.</p>
+                        <p>palmsoltechnology has been researching wearable platforms for quite some time. We combine exhaustive knowledge of popular mobile platforms and comprehensive expertise with wearable tech, and deep understanding of spheres where this class of devices can be applied.</p>
                     </div></div>
             </div>
 

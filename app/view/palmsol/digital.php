@@ -7,7 +7,7 @@
 <div class="col-lg-6 v-center">
 <div class="header-heading">
 <h1 class="wow fadeInUp" data-wow-delay=".2s"><span class="xhighlight">Maximize Your ROI with</span>Results-Driven Marketing Solutions</h1> 
-<p class="wow fadeInUp" data-wow-delay=".4s">Maximize your online presence with Palmsol Technology Ltd's results-driven digital marketing solutions. Our customized strategies deliver real results for your business. Click now to schedule a consultation and start driving success today.</p>
+<p class="wow fadeInUp" data-wow-delay=".4s">Maximize your online presence with palmsol Technology Ltd's results-driven digital marketing solutions. Our customized strategies deliver real results for your business. Click now to schedule a consultation and start driving success today.</p>
 <a href="#" class="btn-main bg-btn lnk wow fadeInUp" data-wow-delay=".6s">schedule a consultation<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
 </div>
 </div>
@@ -93,7 +93,7 @@
 <div class="common-heading text-l">
 <span>GROW TRAFFIC & INCREASE REVENUE</span>
 <h2>Serving All Your Digital Marketing Needs</h2>
-<p>At Palmsol Technology Ltd, we provide innovative digital solutions that help businesses stay ahead in the fast-paced digital world. Our team of experts use cutting-edge technology to design and develop custom solutions that are tailored to meet the unique needs of each client. With our focus on quality and customer satisfaction, we ensure that our clients get the best value for their investment, and achieve their business goals in a timely and efficient manner. </p>
+<p>At palmsol Technology Ltd, we provide innovative digital solutions that help businesses stay ahead in the fast-paced digital world. Our team of experts use cutting-edge technology to design and develop custom solutions that are tailored to meet the unique needs of each client. With our focus on quality and customer satisfaction, we ensure that our clients get the best value for their investment, and achieve their business goals in a timely and efficient manner. </p>
 <a href="https://wa.me/2349031499108" class="btn-main bg-btn lnk mt30">Click this button to chat with us.<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
 </div>
 </div>
@@ -181,7 +181,7 @@
 <div class="common-heading text-l">
 <span>Industries we work for</span>
 <h2>Helping Businesses in All Domains</h2>
-<p>At Palmsol Technology Ltd, we've helped businesses across different domains. Click any of our contact button to schedule a consultation to discuss how we can help your business grow.</p>
+<p>At palmsol Technology Ltd, we've helped businesses across different domains. Click any of our contact button to schedule a consultation to discuss how we can help your business grow.</p>
 </div>
 </div>
 <div class="col-lg-8">

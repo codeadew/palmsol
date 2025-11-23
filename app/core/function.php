@@ -33,3 +33,20 @@ function show_error()
 
         return $id;
     }
+
+    function redirect($path)
+{
+    header('Location: ' . ROOT . trim($path, '/'));
+    exit;
+}
+
+function set_flash($key, $message)
+{
+    $_SESSION[$key] = $message;
+}
+
+function is_ajax(): bool
+{
+    return !empty($_SERVER['HTTP_X_REQUESTED_WITH']) &&
+           strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest';
+}

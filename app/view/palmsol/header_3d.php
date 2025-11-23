@@ -10,7 +10,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="theme-color" content="#101010">
 		<!--website-favicon-->
-		<link href="<?= ASSETS . THEME ?>image/logo.gif" rel="icon">
+		<link href="<?= ASSETS . THEME ?>image/logo.png" rel="icon">
 		<!--plugin-css-->
 		<link href="<?= ASSETS . THEME ?>css/bootstrap.min.css" rel="stylesheet">
 		<link href="<?= ASSETS . THEME ?>css/plugin.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 		<!--Start Preloader -->
 		<div class="onloadpage" id="page_loader">
 			<div class="pre-content">
-				<div class="logo-pre"><img src="<?= ASSETS . THEME ?>images/logo.gif" alt="Logo" class="img-fluid" /></div>
+				<div class="logo-pre"><img src="<?= ASSETS . THEME ?>images/logo.png" alt="Logo" class="img-fluid" /></div>
 				<div class="pre-text-"><?= $data['page_title']; ?></div>
 			</div>
 		</div>
@@ -41,8 +41,8 @@
 			<div class="container-fluid m-pad">
 				<div class="menu-header">
 					<div class="dsk-logo"><a class="nav-brand" href="<?= ROOT ?>home">
-						<img src="<?= ASSETS . THEME ?>images/logo.gif" alt="Logo" class="mega-white-logo"/>
-						<img src="<?= ASSETS . THEME ?>images/logo.gif" alt="Logo" class="mega-darks-logo"/>
+						<img src="<?= ASSETS . THEME ?>images/logo.png" alt="Logo" class="mega-white-logo"/>
+						<img src="<?= ASSETS . THEME ?>images/logo.png" alt="Logo" class="mega-darks-logo"/>
 					</a></div>
 					<div class="custom-nav" role="navigation">
 						<ul class="nav-list onepge">

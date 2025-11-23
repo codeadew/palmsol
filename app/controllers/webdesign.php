@@ -4,14 +4,14 @@ class Webdesign extends Controller {
     public function index() {
 
         // ✅ SEO title & description
-        $data['page_title'] = 'Palmsol Technology | Web Design & Development Agency in Lagos';
-        $data['meta_description'] = 'Palmsol Technology is a professional web design and development agency in Lagos, Nigeria. We build responsive, SEO-optimized websites, e-commerce platforms, and SaaS applications to help businesses grow online.';
+        $data['page_title'] = 'palmsol Technology | Web Design & Development Agency in Lagos';
+        $data['meta_description'] = 'palmsol Technology is a professional web design and development agency in Lagos, Nigeria. We build responsive, SEO-optimized websites, e-commerce platforms, and SaaS applications to help businesses grow online.';
 
         // ✅ Meta keywords
-        $data['meta_keywords'] = 'web design Lagos, web development Lagos, website agency Nigeria, e-commerce solutions Lagos, SaaS development Nigeria, custom websites Lagos, Palmsol Technology';
+        $data['meta_keywords'] = 'web design Lagos, web development Lagos, website agency Nigeria, e-commerce solutions Lagos, SaaS development Nigeria, custom websites Lagos, palmsol Technology';
 
         // ✅ Business identity (LocalBusiness schema)
-        $data['business_name'] = 'Palmsol Technology';
+        $data['business_name'] = 'palmsol Technology';
         $data['business_image'] = 'https://palmsoltechnology.com/images/logo.png';
         $data['business_id']    = ROOT.'webdesign';
         $data['business_url']   = ROOT.'webdesign';
@@ -42,7 +42,7 @@ class Webdesign extends Controller {
         ];
 
         // ✅ Business description
-        $data['business_description'] = 'Palmsol Technology is a leading Lagos-based web design and development agency. We create fast, secure, and SEO-friendly websites, e-commerce stores, and SaaS solutions that help Nigerian businesses thrive in the digital space.';
+        $data['business_description'] = 'palmsol Technology is a leading Lagos-based web design and development agency. We create fast, secure, and SEO-friendly websites, e-commerce stores, and SaaS solutions that help Nigerian businesses thrive in the digital space.';
 
         // ✅ Services / Offers (SEO-friendly)
         $data['offers'] = [

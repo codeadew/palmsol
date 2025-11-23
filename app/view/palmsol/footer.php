@@ -5,7 +5,7 @@
                 <div class="col-lg-6">
                     <div class="email-subs">
                         <h3>Get New Insights Weekly</h3>
-                        <p>Don't want to miss anything Palmsoltechnology, Enter your email</p>
+                        <p>Don't want to miss anything palmsoltechnology, Enter your email</p>
                     </div>
                 </div>
                 <div class="col-lg-6 v-center">
@@ -46,14 +46,16 @@
                     </ul>
                 </div>
                 <div class="col-lg-3 col-sm-6">
-                    <h5>Company</h5>
-                    <ul class="footer-address-list link-hover">
-                        <li><a href="<?= ROOT ?>home">Home</a></li>
-                        <li><a href="<?= ROOT ?>aboutus">About us</a></li>
-                        
-                        <li><a href="<?= ROOT ?>contact">Contact reach us</a></li>
-                        <li><a href="#">Blogs</a></li>
-                    </ul>
+                <h5>Company</h5>
+                <ul class="footer-address-list link-hover">
+                    <li><a href="<?= ROOT ?>home">Home</a></li>
+                    <li><a href="<?= ROOT ?>aboutus">About us</a></li>
+                    <li><a href="<?= ROOT ?>contact">Contact reach us</a></li>
+                    <li><a href="<?= ROOT ?>explore">Explore</a></li>
+                   <?php if (isset($_SESSION['USER_TYPE']) && $_SESSION['USER_TYPE'] == 'super_admin'): ?>
+                        <li><a href="<?= ROOT ?>manager">Management</a></li>
+                   <?php endif; ?>
+                </ul>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <h5>Service</h5>
@@ -91,7 +93,7 @@
                             <a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
                         </div>
                         <div class="footer-">
-                            <p>Copyright &copy; <?= date("Y");?> Palmsol technology. All rights reserved.</p>
+                            <p>Copyright &copy; <?= date("Y");?> palmsol technology. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

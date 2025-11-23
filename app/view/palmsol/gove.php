@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
+    <title>palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -110,7 +110,7 @@
             <div class="col-lg-8">
                 <div class="common-heading ptag">
                     <span>We Deliver Our Best</span>
-                    <h2>Why Choose Palmsoltechnology</h2>
+                    <h2>Why Choose palmsoltechnology</h2>
                     <p class="mb30">Digital technologies are bringing transformative change to society.</p>
                 </div>
             </div>
@@ -179,5 +179,5 @@
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
 </html>

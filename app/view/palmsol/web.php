@@ -11,7 +11,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Favicon -->
-  <link rel="icon" href="<?= ASSETS . THEME ?>images/logo.gif" type="image/png">
+  <link rel="icon" href="<?= ASSETS . THEME ?>images/logo.png" type="image/png">
 
   <!-- CSS -->
   <link href="<?= ASSETS . THEME ?>css/bootstrap.min.css" rel="stylesheet">
@@ -57,7 +57,7 @@
   <div class="onloadpage" id="page_loader">
     <div class="pre-content">
       <div class="logo-pre">
-        <img src="<?= ASSETS . THEME ?>images/logo.gif" alt="Palmsoltechnology Logo" class="img-fluid" />
+        <img src="<?= ASSETS . THEME ?>images/logo.png" alt="palmsoltechnology Logo" class="img-fluid" />
       </div>
       <div class="pre-text-">
         <span><?= $page_title; ?></span>
@@ -70,7 +70,7 @@
 <header class="top-header header-pr ">
   <nav class="navbar navbar-expand-lg navbar-light justify-content-right navbar-mobile fixed-top navfix">
     <div class="container">
-      <a class="navbar-brand" href="index.php"> <img src="<?= ASSETS . THEME ?>images/logo.gif" alt="Logo" width="70" height="70" /></a>
+      <a class="navbar-brand" href="index.php"> <img src="<?= ASSETS . THEME ?>images/logo.png" alt="Logo" width="70" height="70" /></a>
       <button class="navbar-toggler mobile-none" type="button" data-toggle="collapse" data-target="#navbar4" aria-controls="navbar4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse animate slideIn mobile-none" id="navbar4">
         <ul class="mr-auto"></ul>
@@ -186,7 +186,7 @@
               <h1 class="wow fadeInUp" data-wow-delay=".2s">We Build Scalable & Smart Solutions</h1>
               <p class="wow fadeInUp" data-wow-delay=".4s">
                 In today’s digital world, your website is often the first interaction clients have with your business. 
-                At Palmsol Technology Limited, we transform ideas into high-performing websites trusted across Nigeria.
+                At palmsol Technology Limited, we transform ideas into high-performing websites trusted across Nigeria.
               </p>
               <div class="-cta-btn mt70">
                 <div class="free-cta-title v-center wow zoomInDown" data-wow-delay=".9s">
@@ -339,7 +339,7 @@
                 <div class="col-lg-6">
                     <div class="email-subs">
                         <h3>Get New Insights Weekly</h3>
-                        <p>Don't want to miss anything Palmsoltechnology, Enter your email</p>
+                        <p>Don't want to miss anything palmsoltechnology, Enter your email</p>
                     </div>
                 </div>
                 <div class="col-lg-6 v-center">
@@ -425,7 +425,7 @@
                             <a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
                         </div>
                         <div class="footer-">
-                            <p>Copyright &copy; <?php echo date("Y");?> Palmsol technology. All rights reserved.</p>
+                            <p>Copyright &copy; <?php echo date("Y");?> palmsol technology. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

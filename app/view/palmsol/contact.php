@@ -153,6 +153,6 @@
 					<script src="js/main.js"></script>
 				</body>
 				
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/get-quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:37:41 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/get-quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:37:41 GMT -->
 </html>
 

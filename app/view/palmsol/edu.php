@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
+    <title>palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -97,7 +97,7 @@
                     <h2>Education Industry</h2>
                     <p> WE ARE DESIGNERS, CONTENT CREATOR, AND DIGITAL SOLUTION PROVIDER</p>
                     <p>Education Industry is one of those industries which adapted to the perennially transforming technical advancements and exploits it to the optimum level. The challenges that industry faced are enormous from lack of proper methodologies to forced uniformity in learning, and amidst everything, something that has helped the industry to deal with a lot many problems and still managing to evolve is the integration of the technology in everything from process to operations.</p>
-                    <p>Palmsoltechnology is transforming technical advancements and exploits it to the optimum level. Analyze the habits and behavior of students and have the predictive model that enables maximum output.</p>
+                    <p>palmsoltechnology is transforming technical advancements and exploits it to the optimum level. Analyze the habits and behavior of students and have the predictive model that enables maximum output.</p>
                 </div>
 
                 <div class="row in-stats small about-statistics">
@@ -138,7 +138,7 @@
             <div class="col-lg-8">
                 <div class="common-heading ptag">
                     <span>We Deliver Our Best</span>
-                    <h2>Why Choose Palmsoltechnology</h2>
+                    <h2>Why Choose palmsoltechnology</h2>
                 </div>
             </div>
         </div>
@@ -220,5 +220,5 @@
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
 </html>

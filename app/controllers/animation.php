@@ -11,7 +11,7 @@ class Animation extends Controller {
         $data['meta_keywords'] = '3D solutions Lagos, virtual tour Nigeria, 3D event design Lagos, product activation 3D, 3D exterior interior rendering';
 
         // LocalBusiness schema pieces
-        $data['business_name'] = 'Palmsol Technology 3D Animation Services';
+        $data['business_name'] = 'palmsol Technology 3D Animation Services';
         
         $data['business_id']    = 'https://palmsoltechnology.com/';
         $data['business_url']   =  ROOT.' animation';
@@ -38,7 +38,7 @@ class Animation extends Controller {
         $data['same_as']        = [ "https://www.facebook.com/share/1AzNwFatai/"];
 
         // Description
-        $data['business_description'] = 'Palmsol Technology is a Lagos-based tech company specializing in web design, ICT & networking, digital marketing, ICT support, and value-added services for businesses across Nigeria.';
+        $data['business_description'] = 'palmsol Technology is a Lagos-based tech company specializing in web design, ICT & networking, digital marketing, ICT support, and value-added services for businesses across Nigeria.';
 
         // Services / Offers
        $schema['makesOffer'][] = [

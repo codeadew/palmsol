@@ -6,7 +6,7 @@
                 <div class="col-lg-6">
                     <div class="email-subs">
                         <h3>Get New Insights Weekly</h3>
-                        <p>Don't want to miss anything Palmsoltechnology, Enter your email</p>
+                        <p>Don't want to miss anything palmsoltechnology, Enter your email</p>
                     </div>
                 </div>
                 <div class="col-lg-6 v-center">
@@ -92,7 +92,7 @@
                             <a href="javascript:void(0)" target="blank"><i class="fab fa-youtube"></i></a>
                         </div>
                         <div class="footer-">
-                            <p>Copyright &copy; <?php echo date("Y");?> Palmsol technology. All rights reserved.</p>
+                            <p>Copyright &copy; <?php echo date("Y");?> palmsol technology. All rights reserved.</p>
                         </div>
                     </div>
                 </div>

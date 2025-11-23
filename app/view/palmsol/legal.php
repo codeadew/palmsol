@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:00 GMT -->
 <head>
     <meta charset="utf-8"/>
-    <title>Palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
+    <title>palmsoltechnology - Web & mobile application agency| &amp; Digital solution provider  </title>
     <meta name="description" content="Creative Agency, Marketing Agency Template">
     <meta name="keywords" content="Creative Agency, Marketing Agency">
     
@@ -97,7 +97,7 @@
                     <h2>About Agency</h2>
                     <p> WE ARE DESIGNERS, CONTENT CREATOR, AND DIGITAL SOLUTION PROVIDER</p>
                     <p>
-                        Palmsoltechnology is an independent digital solution company, established in 2018 located in Lagos, Nigeria. Within a short period of time we have grown consistently and today we offer a wide range of Enterprise Solutions such as Web and Mobile Applications, Website Management, Video Editing, Content Creation, Graphics Design, and Digital Marketing Solutions.
+                        palmsoltechnology is an independent digital solution company, established in 2018 located in Lagos, Nigeria. Within a short period of time we have grown consistently and today we offer a wide range of Enterprise Solutions such as Web and Mobile Applications, Website Management, Video Editing, Content Creation, Graphics Design, and Digital Marketing Solutions.
                     </p>
                     <p>We have impacted our community by solving problems using technology that allows us to do what we do best: identifying and communicating your brand story. Everywhere your brand lives. From paper to the web, from developing complex websites that sell your products to brand videos and creating the tools your sales team needs to get the products in-store.</p>
                     <p>We have contributed significantly towards the development of human resources using world-class and quality assurance standards ensured at all level and
@@ -142,7 +142,7 @@
             <div class="col-lg-8">
                 <div class="common-heading ptag">
                     <span>We Deliver Our Best</span>
-                    <h2>Why Choose Palmsoltechnology</h2>
+                    <h2>Why Choose palmsoltechnology</h2>
                     <p class="mb30">Donec metus lorem, vulputate at sapien sit amet, auctor iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus velit.</p>
                 </div>
             </div>
@@ -225,5 +225,5 @@
 <script src="js/main.js"></script>
 </body>
 
-<!-- Mirrored from rajeshdoot.com/Palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
+<!-- Mirrored from rajeshdoot.com/palmsoltechnology-demos/html/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Mar 2021 13:34:08 GMT -->
 </html>

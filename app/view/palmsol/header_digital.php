@@ -1,7 +1,7 @@
 <header class="top-header header-pr ">
   <nav class="navbar navbar-expand-lg navbar-light justify-content-right navbar-mobile fixed-top navfix">
     <div class="container">
-      <a class="navbar-brand" href="index.php"> <img src="images/logo.gif" alt="Logo" width="70" height="70" /></a>
+      <a class="navbar-brand" href="index.php"> <img src="images/logo.png" alt="Logo" width="70" height="70" /></a>
       <button class="navbar-toggler mobile-none" type="button" data-toggle="collapse" data-target="#navbar4" aria-controls="navbar4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse animate slideIn mobile-none" id="navbar4">
         <ul class="mr-auto"></ul>

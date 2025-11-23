@@ -2,249 +2,395 @@
 
 class User extends Controller
 {
+    protected $db;
     public $error = "";
 
-    private function generateUniqueID() 
+    public function __construct()
     {
-        $array = array_merge(range(0, 9), range('A', 'Z'), range('a', 'z'));
-        $id = "";
-
-        for ($i = 0; $i < 60; $i++) {
-            $random = rand(0, count($array) - 1);
-            $id .= $array[$random];
-        }
-
-        return $id;
+        $this->db = Database::getInstance();
     }
 
-    public function signup() 
+    public function generateUniqueID()
     {
-    
-        $db = Database::getInstance();
+        // stronger random id (120 hex chars ~ 60 bytes)
+        try {
+            return bin2hex(random_bytes(60));
+        } catch (Exception $e) {
+            // fallback to previous approach
+            $array = array_merge(range(0, 9), range('A', 'Z'), range('a', 'z'));
+            $id = "";
+            for ($i = 0; $i < 60; $i++) {
+                $random = rand(0, count($array) - 1);
+                $id .= $array[$random];
+            }
+            return $id;
+        }
+    }
 
-        if ($_SERVER["REQUEST_METHOD"] == "POST") 
+    // make validate public and use the declared $error property
+
+
+        public function validateSignup($data)
         {
-                $data = 
-            [
-                'first_name'  => isset($_POST['firstName']) ? trim($_POST['firstName']) : '',
-                'last_name'   => isset($_POST['lastName']) ? trim($_POST['lastName']) : '',
-                'email'       => isset($_POST['email']) ? trim($_POST['email']) : '',
-                'password'    => isset($_POST['password']) ? trim($_POST['password']) : '',
-                'user_type'   => 'customer',
-                'signedon'    => date('Y-m-d H:i:s'),
-                'url_address' => $this->generateUniqueID()
+            $firstName = isset($data['firstName']) ? trim($data['firstName']) : '';
+            $lastName = isset($data['lastName']) ? trim($data['lastName']) : '';
+            $email = isset($data['email']) ? trim($data['email']) : '';
+            $password = isset($data['password']) ? trim($data['password']) : '';
+            $confirmPassword = isset($data['confirmPassword']) ? trim($data['confirmPassword']) : '';
+
+            // Validate first name
+            if (empty($firstName) || !preg_match("/^[a-zA-Z'-]+$/", $firstName)) {
+                $this->error .= "Please enter a valid first name.<br>";
+            }
+
+            // Validate last name
+            if (empty($lastName) || !preg_match("/^[a-zA-Z'-]+$/", $lastName)) {
+                $this->error .= "Please enter a valid last name.<br>";
+            }
+
+            // Validate email
+            if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                $this->error .= "Please enter a valid email.<br>";
+            } else {
+                $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
+                $result = $this->db->read($query, ['email' => $email]);
+                if (is_array($result) && !empty($result)) {
+                    $this->error .= "Email is already registered.<br>";
+                }
+            }
+
+            // Validate password
+            if (!preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}$/", $password)) {
+                $this->error .= "Password must contain at least 8 characters, one uppercase, one lowercase, and one special character.<br>";
+            }
+
+            // Confirm password
+            if ($password !== $confirmPassword) {
+                $this->error .= "Passwords do not match.<br>";
+            }
+        }
+
+
+        public function register($data)
+        {
+           
+            $this->validateSignup($data);
+
+            if ($this->error != "") {
+                return ['status' => 'error', 'message' => $this->error];
+            }
+
+            // Clean and prepare data
+            $firstName = htmlspecialchars(trim($data['firstName']));
+            $lastName = htmlspecialchars(trim($data['lastName']));
+            $email = htmlspecialchars(trim($data['email']));
+            $password = password_hash($data['password'], PASSWORD_DEFAULT);
+            $user_type = isset($data['user_type']) ? trim($data['user_type']) : 'user';
+            $signedon = date("Y-m-d H:i:s");
+            $url_address = strtolower($firstName . "." . $lastName . "." . rand(1000, 9999));
+            $created_at = date("Y-m-d H:i:s");
+            $updated_at = $created_at;
+
+             
+            // Database query
+            $query = "INSERT INTO users 
+                        (first_name, last_name, email, passwords, user_type, signedon, url_address, created_at, updated_at)
+                    VALUES 
+                        (:first_name, :last_name, :email, :passwords, :user_type, :signedon, :url_address, :created_at, :updated_at)";
+
+            $arr = [
+                'first_name' => $firstName,
+                'last_name' => $lastName,
+                'email' => $email,
+                'passwords' => $password,
+                'user_type' => $user_type,
+                'signedon' => $signedon,
+                'url_address' => $url_address,
+                'created_at' => $created_at,
+                'updated_at' => $updated_at
             ];
 
-            $password2 = isset($_POST['confirmPassword']) ? trim($_POST['confirmPassword']) : '';
-    // Ensure all expected form inputs exist to prevent undefined index errors
-            // Validate email
-            if (empty($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-                $this->error .= "Please enter a valid email <br>";
+            $result = $this->db->write($query, $arr);
+
+            if ($result) {
+                return [
+                    'status' => 'success',
+                    'message' => 'Account created successfully! You can now log in.'
+                ];
             } else {
-                // Check if email already exists
-                $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
-                $arr = ['email' => $data['email']];
-                $checkEmailExist = $db->read($query, $arr);
-                if (is_array($checkEmailExist)) {
-                    $this->error .= "Email already exists. Please use a different email.<br>";
-                }
+                return [
+                    'status' => 'error',
+                    'message' => 'An unexpected error occurred. Please try again.'
+                ];
             }
+        }
 
-            // Validate first name (letters only)
-            if (empty($data['first_name']) || !preg_match("/^[A-Za-z]+$/", $data['first_name'])) {
-                $this->error .= "Please enter a valid first name <br>";
+
+      
+
+    
+ 
+   
+    
+    
+
+
+################LOGIN #####################
+
+public function validateLogin($data)
+{
+    $errors = [];
+
+    $email = trim($data['email'] ?? '');
+    $password = trim($data['password'] ?? '');
+
+    if (empty($email)) {
+        $errors[] = "Email field is required.";
+    } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors[] = "Please enter a valid email address.";
+    }
+
+    if (empty($password)) {
+        $errors[] = "Password field is required.";
+    }
+
+    return $errors;
+}
+
+public function loginUser($email, $password)
+{
+    $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
+    $result = $this->db->read($query, ['email' => $email]);
+
+    if (is_array($result) && count($result) > 0) {
+            $user = $result[0]; // stdClass object
+
+            if (password_verify($password, $user->passwords)) {
+                return $user; // valid credentials
             }
+        }
+         return false; //  invalid
+}
 
-            // Validate last name (letters only)
-            if (empty($data['last_name']) || !preg_match("/^[A-Za-z]+$/", $data['last_name'])) {
-                $this->error .= "Please enter a valid last name <br>";
-            }
 
-            // Validate password (at least 8 characters, 1 uppercase, 1 lowercase, 1 special character)
-            if (!preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}$/", $data['password'])) {
-                $this->error .= "Password must be at least 8 characters, including 1 uppercase, 1 lowercase, and 1 special character.<br>";
-            }
+################cHECKLOGIN #####################
+  public function checkLogin2($redirect = false, $allow = [])
+{
+    $db = Database::getInstance();
 
-            // Check if passwords match
-            if ($data['password'] !== $password2) {
-                $this->error .= "Passwords do not match <br>";
-            }
+    // 1️⃣ Check Session
+    if (isset($_SESSION['URL_ADDRESS'])) {
+        $result = $db->read(
+            "SELECT * FROM users WHERE url_address = :url_address LIMIT 1",
+            ['url_address' => $_SESSION['URL_ADDRESS']]
+        );
 
-            // If no errors, proceed with saving
-            if (empty($this->error)) {
-                $data['password'] = password_hash($data['password'], PASSWORD_DEFAULT);
+        if ($result) {
+            $user = $result[0];
 
-                $query = "INSERT INTO users (first_name, last_name, email, passwords, user_type, signedon, url_address) 
-                          VALUES (:first_name, :last_name, :email, :password, :user_type, :signedon, :url_address)";
-                
-                $register_user = $db->write($query, $data);
-
-                if ($register_user) {
-                    header("Location: " . ROOT . "login");
+            if (!empty($allow) && !in_array($user->user_type, $allow)) {
+                if ($redirect) {
+                    header("Location: " . ROOT . "authuser/login");
                     exit;
                 }
-            } else {
+                return false;
+            }
 
-                $_SESSION['error'] = $this->error; 
-            }       
+            return $user;
         }
-        return;
-        
+    }
+
+    // 2️⃣ Check Remember Token
+    if (isset($_COOKIE['remember_token'])) {
+
+        $result = $db->read(
+            "SELECT * FROM users WHERE remember_token = :token LIMIT 1",
+            ['token' => $_COOKIE['remember_token']]
+        );
+
+        if ($result) {
+            $user = $result[0];
+
+            // Rebuild session
+            $_SESSION['USER_ID']     = $user->id;
+            $_SESSION['USER_EMAIL']  = $user->email;
+            $_SESSION['USER_NAME']   = $user->first_name . ' ' . $user->last_name;
+            $_SESSION['USER_TYPE']   = $user->user_type;
+            $_SESSION['URL_ADDRESS'] = $user->url_address;
+            $_SESSION['logged_in']   = true;
+
+            return $user;
+        }
+    }
+
+    // 3️⃣ Redirect if required
+    if ($redirect) {
+        header("Location: " . ROOT . "authuser/login");
+        exit;
+    }
+
+    return false;
+}
+
+
+################LOGOUT #####################
+        public function logout2()
+    {
+        $db = Database::getInstance();
+        session_start();
+
+        // Check if user is logged in
+        if (isset($_SESSION['user_id'])) {
+            // Remove remember token from DB (optional but secure)
+            $db->write("UPDATE users SET remember_token = NULL WHERE id = :id", [
+                'id' => $_SESSION['user_id']
+            ]);
+        }
+
+        // 1️ Clear all session data
+        $_SESSION = [];
+
+        // 2️ Destroy session
+        if (session_id() !== "" || isset($_COOKIE[session_name()])) {
+            setcookie(session_name(), '', time() - 3600, '/');
+        }
+        session_destroy();
+
+        // 3️ Clear "Remember Me" cookie
+        if (isset($_COOKIE['remember_token'])) {
+            setcookie('remember_token', '', time() - 3600, "/", "", true, true);
+        }
+
+        // 4️ Redirect to login page
+        header("Location: " . ROOT . "login");
+        exit;
     }
 
 
-     
-
-        public function login() 
+################RESET PASSWORD #####################
+        public function resetPassword()
     {
         $db = Database::getInstance();
+        $this->error = "";
 
         if ($_SERVER["REQUEST_METHOD"] !== "POST") {
             return;
         }
 
+        $token = isset($_POST['token']) ? trim($_POST['token']) : '';
+        $newPassword = isset($_POST['password']) ? trim($_POST['password']) : '';
 
-
-        $this->error = ""; // Initialize error variable
-
-        // Ensure all expected form inputs exist to prevent undefined index errors
-        $data = [
-            'email'    => isset($_POST['email']) ? trim($_POST['email']) : '',
-            'password' => isset($_POST['password']) ? trim($_POST['password']) : '',
-        ];
-
-        // Validate email
-        if (empty($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
-            $this->error .= "Please enter a valid email <br>";
-        } 
-
-        // Validate password (at least 8 characters, 1 uppercase, 1 lowercase, 1 special character)
-        if (!preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,}$/", $data['password'])) {
-            $this->error .= "Password must be at least 8 characters, including 1 uppercase, 1 lowercase, and 1 special character.<br>";
-        }
-
-        // If no errors, proceed with login check
-        if (empty($this->error)) 
-        {
-            $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
-            $result = $db->read($query, ['email' => $data['email']]);
+        if (empty($token) || empty($newPassword)) {
+            $this->error .= "Invalid request.<br>";
+        } else {
+            $query = "SELECT * FROM users WHERE reset_token = :token AND reset_expires > NOW() LIMIT 1";
+            $result = $db->read($query, ['token' => $token]);
 
             if (is_array($result) && !empty($result)) {
                 $user = $result[0];
 
-                // Verify hashed password
-                if (password_verify($data['password'], $user->passwords)) {
-                    $_SESSION['user_address'] = $user->url_address;
-                    header("Location: " . ROOT . "home");
-                    exit;
-                } else {
-                    $this->error .= "Invalid email or password. <br>";
-                }
+                $hashed = password_hash($newPassword, PASSWORD_DEFAULT);
+
+                $db->write(
+                    "UPDATE users SET passwords = :password, reset_token = NULL, reset_expires = NULL WHERE id = :id",
+                    ['password' => $hashed, 'id' => $user->id]
+                );
+
+                $_SESSION['message'] = "Password successfully updated. Please login.";
+                header("Location: " . ROOT . "login");
+                exit;
             } else {
-                $this->error .= "User not found. <br>";
+                $this->error .= "Invalid or expired token.<br>";
             }
         }
 
         $_SESSION['error'] = $this->error;
     }
 
-    
- 
-    public function checkLogin($redirect = false, $allow = array())
+################FORGET PASSWORD ###############
+        public function forgotPassword()
     {
         $db = Database::getInstance();
-    
-        if (count($allow) > 0)
-        {
-            $arr['url_address'] = $_SESSION['user_address'] ?? null;
-    
-            if ($arr['url_address']) 
-            {
-                $query = "SELECT * FROM users WHERE url_address = :url_address LIMIT 1";
-                $result = $db->read($query, $arr);
-    
-                if (is_array($result) && !empty($result)) 
-                {
-                    $result = $result[0];
-    
-                    if (in_array($result->user_type, $allow)) 
-                    {
-                        return $result;
-                    } 
-                    else 
-                    {
-                        if ($redirect) {
-                            header("Location: " . ROOT . "login");
-                            exit;
-                        }
-                    }
-                } 
-                else 
-                {
-                    if ($redirect) 
-                    {
-                        header("Location: " . ROOT . "login");
-                        exit;
-                    }
-                }
-            } 
-            else 
-            {
-                if ($redirect) 
-                {
-                    header("Location: " . ROOT . "login");
-                    exit;
-                }
-            }
-        } 
-        else 
-        {
-            if (isset($_SESSION['user_address'])) 
-            {
-                $arr = [];
-                $arr['url_address'] = $_SESSION['user_address'];
-    
-                $query = "SELECT url_address, user_type FROM users WHERE url_address = :url_address LIMIT 1";
-                $result = $db->read($query, $arr);
-    
-                if (is_array($result) && !empty($result)) 
-                {
-                    return $result[0];
-                }
-            }
-    
-            if ($redirect) {
-                header("Location: " . ROOT . "login");
-                exit;
+        $this->error = "";
+
+        if ($_SERVER["REQUEST_METHOD"] !== "POST") {
+            return;
+        }
+
+        $email = isset($_POST['email']) ? trim($_POST['email']) : '';
+
+        if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            $this->error .= "Please enter a valid email.<br>";
+        } else {
+            $query = "SELECT * FROM users WHERE email = :email LIMIT 1";
+            $result = $db->read($query, ['email' => $email]);
+
+            if (is_array($result) && !empty($result)) {
+                $user = $result[0];
+                $token = bin2hex(random_bytes(32));
+                $expires = date("Y-m-d H:i:s", strtotime("+1 hour"));
+
+                $db->write(
+                    "UPDATE users SET reset_token = :token, reset_expires = :expires WHERE id = :id",
+                    ['token' => $token, 'expires' => $expires, 'id' => $user->id]
+                );
+
+                $resetLink = ROOT . "reset-password?token=" . $token;
+
+                // Send Email (pseudo-code)
+                mail($email, "Password Reset Request", 
+                    "Click this link to reset your password: " . $resetLink,
+                    "From: no-reply@" . $_SERVER['SERVER_NAME']
+                );
+
+                $_SESSION['message'] = "Password reset link sent to your email.";
+            } else {
+                $this->error .= "No account found with that email.<br>";
             }
         }
-    
-        return false;
+
+        $_SESSION['error'] = $this->error;
     }
-    
-    
 
+################AUTOLOGIN #####################
+    public static function autoLogin()
+{
+    session_start();
+    $db = Database::getInstance();
 
+    // If user already logged in, skip
+    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
+        return;
+    }
 
+    // If remember token exists, try to log in
+    if (isset($_COOKIE['remember_token'])) {
+        $token = $_COOKIE['remember_token'];
 
-     public function logout()
-    {
-        if (isset($_SESSION['user_address'])) 
-        {
-            
-            unset($_SESSION['user_address']);
+        $query = "SELECT * FROM users WHERE remember_token = :token LIMIT 1";
+        $result = $db->read($query, ['token' => $token]);
+
+        if (is_array($result) && !empty($result)) {
+            $user = $result[0];
+
+            // Recreate session
+            session_regenerate_id(true);
+            $_SESSION['user_id']       = $user->id;
+            $_SESSION['user_email']    = $user->email;
+            $_SESSION['user_role']     = $user->role;
+            $_SESSION['user_address']  = $user->url_address;
+            $_SESSION['logged_in']     = true;
         }
-        header("Location: " . ROOT . "home");
-        die;
-     }
-
-
-        
+    }
 }
 
 
 
 
+
+
+        
+}
 
 
 

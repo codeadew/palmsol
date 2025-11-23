@@ -1,6 +1,6 @@
 Options -Multiviews
 RewriteEngine On
-RewriteBase /palmsol/
+RewriteBase /palmsol
 
 # Redirect all requests to index.php if file/folder not found
 RewriteCond %{REQUEST_FILENAME} !-d

@@ -12,7 +12,7 @@
             <span>and VAS in Lagos</span>
           </h2>
           <p class="wow fadeIn" data-wow-delay="0.6s">
-            Since 2018, Palmsol Technology has delivered cutting-edge websites, reliable ICT & networking solutions, 
+            Since 2018, palmsol Technology has delivered cutting-edge websites, reliable ICT & networking solutions, 
             results-driven digital marketing, expert ICT support, and value-added services that help businesses thrive in Lagos and beyond.
           </p>
           <a href="#" class="btn-main bg-btn2 lnk" data-toggle="modal" data-target="#modalform">
@@ -115,7 +115,7 @@
                     <div class="s-block" data-tilt data-tilt-max="5" data-tilt-speed="1000">
                         <div class="s-card-icon"><img src="<?= ASSETS . THEME ?>/images/icons/branding.svg" alt="service" class="img-fluid"/></div>
                         <h4>Branding </h4>
-                        <p>Are you looking for a talented graphics designer who can bring your brand to life and create eye-catching designs that captivate your audience? Look no further than Palmsol technology graphics designers, the go-to designer for businesses and individuals who want to stand out from the crowd.</p>
+                        <p>Are you looking for a talented graphics designer who can bring your brand to life and create eye-catching designs that captivate your audience? Look no further than palmsol technology graphics designers, the go-to designer for businesses and individuals who want to stand out from the crowd.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
@@ -367,7 +367,7 @@
                     <div class="common-heading text-l">
                         <span>GROW TRAFFIC & INCREASE REVENUE</span>
                         <h2>Serving All Your Digital Marketing Needs</h2>
-                        <p>At Palmsoltechnology, results-based relationships means creating an environment where clients, employees and our own company can achieve their objectives and goals. </p>
+                        <p>At palmsoltechnology, results-based relationships means creating an environment where clients, employees and our own company can achieve their objectives and goals. </p>
                         <a href="#" class="btn-main bg-btn lnk mt30">Learn More <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                     </div>
                 </div>
@@ -508,7 +508,7 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="t-text">
-                                <p>During the time we've worked together, Palmsoltechnology digital marketing team has demonstrated their commitment in assisting us to achieve our goal in reaching out to our target audience concerning online marketing, email newsletter, and general update and design on our investors portal.</p>
+                                <p>During the time we've worked together, palmsoltechnology digital marketing team has demonstrated their commitment in assisting us to achieve our goal in reaching out to our target audience concerning online marketing, email newsletter, and general update and design on our investors portal.</p>
                             </div>
                             <div class="client-thumbs mt30">
                                 <div class="media v-center">
@@ -522,7 +522,7 @@
                         </div>
                         <div class="testimonial-card">
                             <div class="t-text">
-                                <p>Base on my experience with the Palmsoltechnology team, I can say their services are one of the best in the country. we made several iterations during the project they handle for us, but they make sure every bit of it came out as expected.
+                                <p>Base on my experience with the palmsoltechnology team, I can say their services are one of the best in the country. we made several iterations during the project they handle for us, but they make sure every bit of it came out as expected.
                                 I really recommend this Team.</p>
                             </div>
                             <div class="client-thumbs mt30">

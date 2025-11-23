@@ -1,0 +1,27 @@
+name: CI/CD Deploy PHP Project
+
+on:
+  push:
+    branches:
+      - main  # or whichever branch you want to deploy automatically
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Setup SSH agent
+      - name: Setup SSH
+        uses: webfactory/ssh-agent@v0.8.1
+        with:
+          ssh-private-key: ${{ secrets.ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIgrkfyN0FsMu5eHaIOAykj0gRjxDVUYWzslE47ozom3 adewunmialaba02@gmail.com }}
+
+      # Step 3: Sync files to your server
+      - name: Deploy files
+        run: |
+          rsync -avz --delete ./ ${{ secrets.palmsolt }}@${{ secrets.131.153.147.186 }}:/home/palmsolt/public_html
+
