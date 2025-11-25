@@ -1,5 +1,5 @@
 
-name: Pal,msolt CI/CD Deploy Project
+name: Palmsolt CI/CD Deploy Project
 
 on:
   push:
