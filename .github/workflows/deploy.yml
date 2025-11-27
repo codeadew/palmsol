@@ -17,7 +17,7 @@ jobs:
 
     # Step 2: Setup SSH agent using your secret
     - name: Set up SSH
-      uses: webfactory/ssh-agent@v0.8.1
+      uses: webfactory/ssh-agent@v0.7.0
       with:
         ssh-private-key: ${{ secrets.LIVE_SERVER_SSH_KEY }}
 
