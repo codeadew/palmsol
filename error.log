@@ -27,3 +27,11 @@
 [27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_description in /var/www/html/palmsol/app/view/palmsol/login.php on line 9
 [27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_keywords in /var/www/html/palmsol/app/view/palmsol/login.php on line 10
 [27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $schema in /var/www/html/palmsol/app/view/palmsol/login.php on line 43
+[27-Nov-2025 19:19:18 Africa/Brazzaville] PHP Warning:  Undefined variable $page_title in /var/www/html/palmsol/app/view/palmsol/login.php on line 8
+[27-Nov-2025 19:19:18 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_description in /var/www/html/palmsol/app/view/palmsol/login.php on line 9
+[27-Nov-2025 19:19:18 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_keywords in /var/www/html/palmsol/app/view/palmsol/login.php on line 10
+[27-Nov-2025 19:19:18 Africa/Brazzaville] PHP Warning:  Undefined variable $schema in /var/www/html/palmsol/app/view/palmsol/login.php on line 43
+[27-Nov-2025 19:20:31 Africa/Brazzaville] PHP Warning:  Constant ENVIRONMENT already defined in /var/www/html/palmsol/app/core/config.php on line 10
+[27-Nov-2025 19:20:33 Africa/Brazzaville] PHP Warning:  Constant ENVIRONMENT already defined in /var/www/html/palmsol/app/core/config.php on line 10
+[27-Nov-2025 19:20:48 Africa/Brazzaville] PHP Warning:  Constant ENVIRONMENT already defined in /var/www/html/palmsol/app/core/config.php on line 10
+[27-Nov-2025 19:20:48 Africa/Brazzaville] PHP Warning:  Constant ENVIRONMENT already defined in /var/www/html/palmsol/app/core/config.php on line 10
