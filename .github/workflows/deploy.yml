@@ -1,6 +1,6 @@
+name: CI/CD Deploy
 
-name: Palmsolt CI/CD Deploy Project
-
+# Trigger workflow when you push to main
 on:
   push:
     branches:
@@ -11,20 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    # Step 1: Checkout your repo code
+    - name: Checkout code
+      uses: actions/checkout@v3
 
-      - name: Setup SSH
-        uses: webfactory/ssh-agent@v0.7.0
+    # Step 2: Setup SSH agent using your secret
+    - name: Set up SSH
+      uses: webfactory/ssh-agent@v0.8.1
+      with:
+        ssh-private-key: ${{ secrets.LIVE_SERVER_SSH_KEY }}
 
-        with:
-          ssh-private-key: ${{ secrets.SSH_KEY }}
+    # Step 3: Deploy to your live server
+    - name: Deploy to server
+      run: |
+        ssh ${{ secrets.LIVE_SERVER_USER }}@${{ secrets.LIVE_SERVER_HOST }} "
+          cd /var/www/html/palmsol &&
+          git pull origin main
+        "
 
-      - name: Deploy to server
-        run: |
-          ssh -o StrictHostKeyChecking=no ${{ secrets.SSH_USER }}@${{ secrets.SERVER_IP }} "
-            cd /home/palmsolt/public_html || exit;
-            git reset --hard;
-            git clean -fd;
-            git pull origin main;
-          "
