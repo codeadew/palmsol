@@ -19,3 +19,11 @@
 [22-Nov-2025 22:28:44 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_description in /var/www/html/palmsol/app/view/palmsol/login.php on line 9
 [22-Nov-2025 22:28:44 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_keywords in /var/www/html/palmsol/app/view/palmsol/login.php on line 10
 [22-Nov-2025 22:28:44 Africa/Brazzaville] PHP Warning:  Undefined variable $schema in /var/www/html/palmsol/app/view/palmsol/login.php on line 43
+[26-Nov-2025 13:50:15 Africa/Brazzaville] PHP Warning:  Undefined variable $page_title in /var/www/html/palmsol/app/view/palmsol/login.php on line 8
+[26-Nov-2025 13:50:15 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_description in /var/www/html/palmsol/app/view/palmsol/login.php on line 9
+[26-Nov-2025 13:50:15 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_keywords in /var/www/html/palmsol/app/view/palmsol/login.php on line 10
+[26-Nov-2025 13:50:15 Africa/Brazzaville] PHP Warning:  Undefined variable $schema in /var/www/html/palmsol/app/view/palmsol/login.php on line 43
+[27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $page_title in /var/www/html/palmsol/app/view/palmsol/login.php on line 8
+[27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_description in /var/www/html/palmsol/app/view/palmsol/login.php on line 9
+[27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $meta_keywords in /var/www/html/palmsol/app/view/palmsol/login.php on line 10
+[27-Nov-2025 15:06:56 Africa/Brazzaville] PHP Warning:  Undefined variable $schema in /var/www/html/palmsol/app/view/palmsol/login.php on line 43
